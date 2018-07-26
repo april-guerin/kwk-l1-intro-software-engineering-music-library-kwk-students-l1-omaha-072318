@@ -1,4 +1,4 @@
-library = {:taylor_swift => "Style", :silento => "Watch Me", :selena_gomez => "Good For You", :mark_ronson => "Uptown Funk!", :andy_grammar => "Honey I'm Good", :maroon_five => "Sugar" }
+library = {:taylor_swift => "Style", :silento => "Watch Me", :selena_gomez => "Good For You", :mark_ronson => "Uptown Funk!", :andy_grammer => "Honey I'm Good", :maroon_five => "Sugar" }
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
 
@@ -18,7 +18,7 @@ end
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 def delete_artist(library, taylor_swift)
-  library = {:taylor_swift => "Style", :silento => "Watch Me", :selena_gomez => "Good For You", :mark_ronson => "Uptown Funk!", :andy_grammar => "Honey I'm Good", :maroon_five => "Sugar" }
+  library = {:taylor_swift => "Style", :silento => "Watch Me", :selena_gomez => "Good For You", :mark_ronson => "Uptown Funk!", :andy_grammer => "Honey I'm Good", :maroon_five => "Sugar" }
   library.delete(:taylor_swift)
   library
 end
