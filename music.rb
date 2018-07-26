@@ -24,7 +24,10 @@ def delete_artist(library, taylor_swift)
 end
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
-
+def add_song_and_artist(library, ed_sheeran, "Thinking Out Loud")
+  library = {:taylor_swift => "Style", :silento => "Watch Me", :selena_gomez => "Good For You", :mark_ronson => "Uptown Funk!", :andy_grammer => "Honey I'm Good", :maroon_five => "Sugar" }
+  library[:ed_sheeran] = "Thinking Out Loud"
+end
 
 
 
